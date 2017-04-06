@@ -2,7 +2,7 @@ package Continued_Fraction;
 
 import java.math.BigInteger;
 
-public class Continued_Fraction_Cryto {
+public class Continued_Fraction_Crypto {
 	public static void main(String args[])
 	{
 		int[] cf = Cfraction(5, Math.log(3.14));
