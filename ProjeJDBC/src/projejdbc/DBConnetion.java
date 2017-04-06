@@ -11,7 +11,7 @@ public class DBConnetion {
     private Connection conn;
     String dbUrl = "jdbc:mysql://localhost:3306/BIGDB";
     String user = "root";
-    String pass = "10631991";
+    String pass = "";
     
     public Connection baglan()
     {
