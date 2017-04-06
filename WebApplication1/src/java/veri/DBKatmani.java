@@ -19,7 +19,7 @@ public class DBKatmani {
     private Connection conn;
     String dburl="jdbc:derby://localhost:1527/IlkDatabase";
     String user = "IlkDatabase";
-    String pass = "123";
+    String pass = "";
     public Connection baglan()
     {
         try{
