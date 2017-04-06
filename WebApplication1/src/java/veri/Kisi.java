@@ -42,7 +42,7 @@ public class Kisi {
     {
         Kisi k = new Kisi();
         k.setIsim("Melih");
-        k.setSifre("123");
+        k.setSifre("");
         System.out.println(k.sifreKontrol());
     }
     
