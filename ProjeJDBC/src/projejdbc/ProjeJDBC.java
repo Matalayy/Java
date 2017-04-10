@@ -18,9 +18,9 @@ public class ProjeJDBC {
         // TODO code application logic here
         DBConnetion dbc = new DBConnetion();
         dbc.baglan();
-       // dbc.personelEkle(1, "Melih", "Atalay");
+       // dbc.personelEkle(1, "Mlh", "A");
         //dbc.personelListe();
-        //dbc.personelGuncelle(2, "Süret", "Yorulmaz");
+        //dbc.personelGuncelle(2, "Srt", "Y");
         dbc.personelListe();
         
     }
