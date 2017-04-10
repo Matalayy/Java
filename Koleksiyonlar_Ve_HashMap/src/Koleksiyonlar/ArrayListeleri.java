@@ -13,10 +13,10 @@ public class ArrayListeleri {
 	{
 		ArrayList<Ogrenci> ogrenciler = new ArrayList<Ogrenci>();
 		
-		Ogrenci o1 = new Ogrenci(1, "Melih", "Atalay");
-		Ogrenci o2 = new Ogrenci(2, "Suret", "Yorulmaz");
-		Ogrenci o3 = new Ogrenci(3, "Nimet", "Emer");
-		Ogrenci o4 = new Ogrenci(4, "Tugba", "Uyar");
+		Ogrenci o1 = new Ogrenci(1, "Melih", "A");
+		Ogrenci o2 = new Ogrenci(2, "Surt", "Y");
+		Ogrenci o3 = new Ogrenci(3, "Nimt", "E");
+		Ogrenci o4 = new Ogrenci(4, "Tuga", "U");
 		ogrenciler.add(o1);
 		ogrenciler.add(o2);
 		ogrenciler.add(o3);
@@ -34,8 +34,8 @@ public class ArrayListeleri {
 		
 		//Ogrenci ismine gore siralama
 		Collections.sort(ogrenciler,new ismeGoreSirala());
-		System.out.println("Compare metoduna gˆre Sort etme : ");
-        System.out.println("›sme Gˆre S˝ralama : ");
+		System.out.println("Compare metoduna g√∂re Sort etme : ");
+        System.out.println("√ùsme G√∂re S√Ωralama : ");
         for(Ogrenci ogr : ogrenciler)
         {
         	System.out.println(ogr.getNo() + " "+ ogr.getIsim() + " " + ogr.getSoyisim());
